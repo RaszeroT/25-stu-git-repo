@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="flex-column min-100-vh">
+        <header class="hero">
+          <h1> Library of Congress Search</h1>
+          <p>Welcome to the Library of Congress Mini-Project</p>
+        </header>
+      
+        <main class="flex-row justify-space-between">
+          <div class="col-12 col-md-4">
+      
+            <div class="card">
+              <h3 class="card-header text-uppercase">Search Topic</h3>
+              <form id="user-form" class="card-body">
+                <label class="form-label" for="username"></label>
+                <input name="username" id="username" type="text" autofocus="true" class="form-input" />
+                <button type="submit" class="btn">Search!</button>
+              </form>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 class="card-header text-uppercase">Dropdown Text Here</h3>
+            <form id="user-form" class="card-body">
+                <label for="format">Select a Format...</label><br />
+                <select name="SelectOption" id="drop-down">
+                  <option value="option1">Newspaper</option>
+                  <option value="option2">Images</option>
+                  <option value="option3">Webpages</option>
+                  <option value="option4">Video</option>
+                </select>
+            </form>
+          </div>
+        </div>
+      
+
+        </main>
+      
+        <script src="script.js"></script>
+</body>
+</html>
